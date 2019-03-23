@@ -1,0 +1,121 @@
+body{
+    
+}
+.daily_sec{
+    height: 700px;
+}
+.daily_sec>.container>.row h1{
+    text-align: center;
+   
+}
+.left_side{
+    border-right: 2px solid black;
+    height: 500px;
+    
+}
+.left_side h1{
+    padding: 0px;
+}
+table{
+    height: 400px;
+    width: 80%;
+    text-align: center;
+}
+table tr{
+    
+}
+table tr td{
+    font-size: 18px;
+}
+
+table tr td .table_text{
+    width: 
+}
+input[type="text"]{
+    padding: 10px;
+    text-align: center;
+    width: 290px;
+    font-size: 
+}
+
+input[type="number"]{
+    padding: 10px;
+    text-align: center;
+    width: 290px;
+    font-size: 
+}
+
+input[type="submit"]{
+    padding: 10px;
+    text-align: center;
+    width: 290px;
+    margin: auto;
+}
+
+
+.right_side{    
+    
+}
+
+
+.txt_style{
+    text-align: center;
+    
+}
+.txt_style h2{
+    background: gray;
+    padding: 5px;
+    color: white;
+}
+.txt_style_item p{
+    background: rgb(164, 200, 164);
+    padding: 5px;
+    text-align: center;
+}
+
+.txt_style_item input[type="submit"]{
+    padding: 10px;
+    text-align: center;
+    width: 190px;
+    margin: auto;
+}
+
+.txt_style_item input[type="text"]{
+    padding: 10px;
+    text-align: center;
+    float: right;
+    width: 190px;
+    margin: auto;
+}
+.txt_style_item span{
+    text-align: center;
+}
+
+/*========information start=========*/
+.info_sec{
+    width: 980px;
+    height: 95px;    
+    margin: auto;
+    padding: 10px 0px;
+    
+}
+.info {
+	width: 100%;
+	height: 95px;
+	padding: 20px;
+	margin-left: 80px;
+}
+
+.button{
+    float: left;
+    margin-left: 10px;
+}
+.button a {
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	background: #dacfcf;
+	padding: 20px 40px;
+}
+/*========information end=========*/

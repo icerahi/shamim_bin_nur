@@ -1,0 +1,85 @@
+body{
+    
+}
+
+.logout{
+float:right;
+}
+
+.login_sec{
+    width: 980px;
+    height: 750px;
+    
+    margin: auto;
+    padding: 200px 0px;
+}
+.login_form{
+    width: 100%;
+    height: 250px;
+   
+    margin: auto;
+}
+
+table{
+    margin: auto;
+    height: 300px;
+    width: 50%;
+}
+table tr{
+    
+}
+table tr td{ 
+    margin-top: 10px;
+    font-size: 25px;
+}
+table tr td h1{ 
+    font-size: 40px;
+    font-weight: 700;
+}
+input[type="email"]{
+    text-align: center;
+    padding: 5px;
+}
+input[type="password"]{
+
+    padding: 5px;
+}
+input[type="submit"]{
+    background: red;
+    border: none;   
+    padding: 8px 15px;
+    color: white;
+}
+input[type="submit"]:hover{
+    background: #d90404;
+    
+}
+/*========login page end=========*/
+/*========information start=========*/
+.info_sec{
+    width: 980px;
+    height: 750px;    
+    margin: auto;
+    padding: 200px 0px;
+    
+}
+.info{
+    width: 100%;
+    height: 250px;   
+    margin: auto;    
+    padding: 95px;
+}
+
+.button{
+    float: left;
+    margin-left: 10px;
+}
+.button a {
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	background: #dacfcf;
+	padding: 20px 40px;
+}
+/*========information end=========*/

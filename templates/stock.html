@@ -1,0 +1,69 @@
+ {% extends 'base.html' %}
+ {% load static %}
+
+ {% block static %}
+     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/sell_history.css' %}" rel="stylesheet">
+  
+ {% endblock %}
+
+ {% block body %}
+    <section class="sell_history">
+       <div class="container">
+           <div class="row">
+               <h1>Stock Product</h1>
+           </div>
+           
+           <div class="row">
+               <form action="" method="">
+                  <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Items Name</th>
+                          <th scope="col"> </th>
+                          <th scope="col"> </th>
+                          <th scope="col">Quantity (in kg)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+
+                      {% for item in items %}
+                        <tr>
+                          <th scope="row">{{ item.item}}</th>
+                          <td></td>
+                          <td></td>
+                          <td>{{ item.quantity }}</td>
+                        </tr>
+                      {% endfor %}
+
+                        
+
+                        
+
+                        
+
+                      </tbody>
+                    </table>
+                   
+               </form>
+               
+               
+               
+           </div>
+           
+           
+           
+       </div>
+   </section>
+{% endblock %}
+
+{% block js %}
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+   
+
+{% endblock %}

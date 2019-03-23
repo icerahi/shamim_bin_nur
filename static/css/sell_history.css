@@ -1,0 +1,59 @@
+body{
+    padding: 30px;
+}
+
+/*========information start=========*/
+.info_sec{
+    width: 980px;
+    height: 95px;    
+    margin: auto;
+    padding: 10px 0px;
+    
+}
+.info {
+	width: 100%;
+	height: 95px;
+	padding: 20px;
+	margin-left: 80px;
+}
+
+.button{
+    float: left;
+    margin-left: 10px;
+}
+.button a {
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+	background: #dacfcf;
+	padding: 20px 40px;
+}
+/*========information end=========*/
+/*========sell_history start=========*/
+.sell_history{}
+.sell_history>.container{}
+.sell_history>.container>.row{}
+.sell_history>.container>.row h1{
+    
+    text-align: center;
+    padding: 20px;
+}
+form>table{
+    width: 100%;
+}
+form>table>thead{}
+form>table>thead tr{}
+form>table>thead tr  th{}
+
+form>table>tbody tr  {}
+form>table>tbody tr  th{}
+form>table>tbody tr  td{
+   
+}
+
+/*========sell_history end=========*/
+
+/*=============responsive start========*/
+
+/*=============responsive end========*/

@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>{{ request.path }}</title>
+
+    <!-- Bootstrap -->
+ {% block static  %}
+ {% endblock %}
+  </head>
+  <body>
+    <div class="fluid-container">
+     <div style="float:right; margin-right:20px; margin-top:20px;" class="logout">
+       <a href="{% url 'logout' %}" >   <img width="40" height="40" src="{% static 'arrow.png' %}"></a>
+     </div>
+      </div>
+   <section class="info_sec">
+        <div class="fluid-container">
+            <div class="info">
+               <form action="" method="">
+                   
+                    <div class="button">
+                        <a href="{% url 'daily_sell' %}" >Daily Sell</a>
+                    </div>
+
+
+
+
+
+                    <div class="button">
+                        <a href="{% url 'stock'%}">Stock Product</a>
+                    </div>
+                      <div class="button">
+                        <a href="/admin">Admin</a>
+                    </div>
+                       
+                       
+                   
+                   
+               </form>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    {% block body %}{% endblock %}
+
+    
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    {% block js %} {% endblock %}
+  </body>
+</html>
