@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="407fe650-4c2a-409e-a02a-5194d8afc99b" name="Default Changelist" comment="" />
+    <list default="true" id="407fe650-4c2a-409e-a02a-5194d8afc99b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shamim_bin_nur/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shamim_bin_nur/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="180">
               <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -22,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
@@ -34,10 +39,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shamim_bin_nur/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/daily_sell.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1463">
+            <state relative-caret-position="1386">
               <caret line="77" column="97" selection-start-line="77" selection-start-column="97" selection-end-line="77" selection-end-column="97" />
             </state>
           </provider>
@@ -50,6 +64,9 @@
       <find />
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,7 +75,6 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/static/css/login.css" />
-        <option value="$PROJECT_DIR$/shamim_bin_nur/settings.py" />
         <option value="$PROJECT_DIR$/templates/stock.html" />
         <option value="$PROJECT_DIR$/templates/sell_history.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
@@ -68,32 +84,28 @@
         <option value="$PROJECT_DIR$/apps/admin.py" />
         <option value="$PROJECT_DIR$/apps/views.py" />
         <option value="$PROJECT_DIR$/templates/daily_sell.html" />
+        <option value="$PROJECT_DIR$/shamim_bin_nur/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="26" />
-    <option name="width" value="711" />
-    <option name="height" value="695" />
+    <option name="x" value="753" />
+    <option name="y" value="60" />
+    <option name="width" value="684" />
+    <option name="height" value="691" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="shamim_bin_nur" type="b2602c69:ProjectViewProjectNode" />
               <item name="shamim_bin_nur" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shamim_bin_nur" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shamim_bin_nur" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shamim_bin_nur" type="b2602c69:ProjectViewProjectNode" />
@@ -109,11 +121,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/django_project/Car-Rental-System-master" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -181,6 +195,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20892194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -274,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shamim_bin_nur/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="100" column="23" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -310,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="180">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -320,7 +328,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/daily_sell.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
+        <state relative-caret-position="1386">
           <caret line="77" column="97" selection-start-line="77" selection-start-column="97" selection-end-line="77" selection-end-column="97" />
         </state>
       </provider>
@@ -332,6 +340,13 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shamim_bin_nur/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
         </state>
       </provider>
     </entry>
